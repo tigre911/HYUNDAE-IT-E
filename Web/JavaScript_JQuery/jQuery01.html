@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<!-- CSS를 포함 하는 곳 -->
+	<!-- <style> tag를 이용하면 css 사용 가능 -->
+	<!--  file을 링크할때는 <link>를 이용한다. -->
+	
+	<link href = "./css/jQuery01.css" rel="stylesheet">
+	
+	<!-- 만약 JavaScript code 를 jQuery를 사용할꺼면
+		CDN을 명시하면 된다.
+	 -->
+	 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+	
+	<script src="./js/jQuery01.js" type="text/javascript">
+	</script>
+	
+	</head>
+	
+	<body>
+		<!-- div, span은 둘다 영역을 잡는 역할을 수행 -->
+		<!-- div처럼 라인단위로 영역을 잡는 element를 block level element -->
+		<!-- span처럼 내용단위로 영역을 잡는 element 를 inline element -->
+		<div>여기가 내용 입니다.<br> div 태그 입니다.</div>
+		<span>span 태그 입니다.</span>
+		<br><br> <!-- <br>은 강제로 줄바꿈을 하는 태그 -->
+		<span class = myStyle>소리없는 아우성!!</span>
+		<!-- 사용자 입력 양식(form) -->
+		<br>
+		<input type="button" value="버튼입니다" onclick="myFunc()">
+	</body>
+</html>
+

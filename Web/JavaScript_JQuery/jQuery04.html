@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+
+	<script src="./js/jQuery04.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+	</head>
+	
+	<body>
+		<div>
+		
+			<select onchange="myChange()">
+				<option>서울</option>
+				<option>인천</option>
+				<option>부산</option>
+				<option>제주</option>
+			</select>
+			
+			<div>선택된 지역은 : <span></span></div>
+			
+			<ul>
+				<li id="apple">사과</li>
+				<li>파인애플</li>
+				<li class="myList">딸기</li>
+			</ul>
+			
+			<form action="서버쪽 프로그램 URL" method="POST">
+				<!-- 사용자 입력 양식 -->
+				<input type="text" size="20"> 
+			</form>
+			
+			<ol>
+				<li class="myList">고양이</li>
+				<li class="myList">호랑이</li>
+				<li class="myList">강아지</li>
+			</ol>
+			
+			<input type="button" value="clickkkk"
+					onclick="myFunc()">
+			
+			
+			<input type="button" value="배열처리"
+					onclick="myArray()">
+			
+		</div>
+	</body>
+</html>
